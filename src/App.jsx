@@ -8,6 +8,9 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 const App = () => {
+
+  console.log("Base URL is:", import.meta.env.BASE_URL);
+  
   return (
     <>
     <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
