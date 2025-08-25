@@ -1,5 +1,9 @@
 import React from 'react'
 import { motion } from "motion/react"
+import Renthive from '../assets/RentHive.png'
+import Simon_Game from "../assets/Simon_Says_Game.png"
+import Bubble_Game from "../assets/Buuble_Game.png"
+import Spotify from "../assets/Spotify.png"
 
 
 const Projects = () => {
@@ -18,7 +22,7 @@ const Projects = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className='mx-[24vw] lg:mx-[0] w-full lg:1/4 lg:my-[15vh]'>
-            <img className='rounded' src={`${import.meta.env.BASE_URL} Renthive.png`} alt="" height={180} width={180} />
+            <img className='rounded' src={Renthive} alt="" height={180} width={180} />
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -40,7 +44,7 @@ const Projects = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className='mx-[24vw] lg:mx-[0] w-full lg:1/4 mt-[10vh] lg:my-[15vh]'>
-            <img className='rounded' src={`${import.meta.env.BASE_URL} Simon_Says_Game.png`} alt="" height={180} width={180} />
+            <img className='rounded' src={Simon_Game} alt="" height={180} width={180} />
           </motion.div>
           <motion.div 
            whileInView={{opacity: 1, x: 0}}
@@ -61,7 +65,7 @@ const Projects = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className='mx-[24vw] lg:mx-[0] w-full lg:1/4 mt-[10vh] lg:my-[15vh]'>
-            <img className='rounded' src={`${import.meta.env.BASE_URL} Bubble_Game.png`} alt="" height={180} width={180} />
+            <img className='rounded' src={Bubble_Game} alt="" height={180} width={180} />
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -82,7 +86,7 @@ const Projects = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className='mx-[24vw] lg:mx-[0] w-full lg:1/4 mt-[10vh] lg:my-[15vh]'>
-            <img className='rounded' src={`${import.meta.env.BASE_URL} Spotify.png`} alt="" height={180} width={180} />
+            <img className='rounded' src={Spotify} alt="" height={180} width={180} />
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}

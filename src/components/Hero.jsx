@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "motion/react"
+import RajatPic from "../assets/RajatPic.jpg"
 
 const container = (delay) =>({
   hidden: {x: -100, opacity: 0},
@@ -53,7 +54,7 @@ const Hero = () => {
               initial={{x: 100, opacity: 0}}
               animate={{x: 0, opacity: 1}}
               transition={{duration: 1, delay:1.7}}
-              className='md:h-100 md:w-100 md:ml-50 rounded-2xl' src={`${import.meta.env.BASE_URL} RajatPic.jpg`} alt="Rajat Sharma" height={100} width={350} />
+              className='md:h-100 md:w-100 md:ml-50 rounded-2xl' src={RajatPic} alt="Rajat Sharma" height={100} width={350} />
 
             </div>          
 

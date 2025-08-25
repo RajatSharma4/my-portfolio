@@ -1,5 +1,12 @@
 import React from 'react'
 import { motion } from "motion/react"
+import ReactPic from "../assets/ReactPic.png"
+import ExpressJs from "../assets/ExpressJs.png"
+import NodeJs from "../assets/NodeJs.png"
+import MongoDb from "../assets/MongoDb.png"
+import Tailwind from "../assets/Tailwind.png"
+import JavaScript from "../assets/JavaScript.png"
+
 
 
 const iconVariants = (duration) => ({
@@ -37,7 +44,7 @@ const Technologies = () => {
         initial = "initial"
         animate = "animate"
         className='rounded-2xl border-4 border-neutral-800 p-4'>
-           <img src={`${import.meta.env.BASE_URL} ReactPic.png`} alt="" className='h-10 rounded'/>
+           <img src={ReactPic} alt="" className='h-10 rounded'/>
        </motion.div>
 
        <motion.div 
@@ -45,7 +52,7 @@ const Technologies = () => {
         initial = "initial"
         animate = "animate"
        className='rounded-2xl border-4 border-neutral-800 p-4'>
-           <img src={`${import.meta.env.BASE_URL} ExpressJs.png`} alt="" className='h-10 rounded'/>
+           <img src={ExpressJs} alt="" className='h-10 rounded'/>
        </motion.div>
 
        <motion.div
@@ -53,7 +60,7 @@ const Technologies = () => {
         initial = "initial"
         animate = "animate"
         className='rounded-2xl border-4 border-neutral-800 p-4'>
-           <img src={`${import.meta.env.BASE_URL} NodeJs.png`} alt="" className='h-10 rounded'/>
+           <img src={NodeJs} alt="" className='h-10 rounded'/>
        </motion.div>
 
        <motion.div
@@ -61,7 +68,7 @@ const Technologies = () => {
         initial = "initial"
         animate = "animate"
        className='rounded-2xl border-4 border-neutral-800 p-4'>
-           <img src={`${import.meta.env.BASE_URL} MongoDb.png`} alt="" className='h-10 rounded'/>
+           <img src={MongoDb} alt="" className='h-10 rounded'/>
        </motion.div>
 
        <motion.div 
@@ -69,7 +76,7 @@ const Technologies = () => {
         initial = "initial"
         animate = "animate"
        className='rounded-2xl border-4 border-neutral-800 p-4'>
-           <img src={`${import.meta.env.BASE_URL} Tailwind.png`} alt="" className='h-10 rounded'/>
+           <img src={Tailwind} alt="" className='h-10 rounded'/>
        </motion.div>
 
        <motion.div
@@ -77,7 +84,7 @@ const Technologies = () => {
         initial = "initial"
         animate = "animate"
         className='rounded-2xl border-4 border-neutral-800 p-4'>
-           <img src={`${import.meta.env.BASE_URL} JavaScript.png`} alt="" className='h-10 rounded'/>
+           <img src={JavaScript} alt="" className='h-10 rounded'/>
        </motion.div>
 
 
