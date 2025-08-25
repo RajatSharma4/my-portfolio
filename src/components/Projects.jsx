@@ -18,7 +18,7 @@ const Projects = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className='mx-[24vw] lg:mx-[0] w-full lg:1/4 lg:my-[15vh]'>
-            <img className='rounded' src="/Renthive.png" alt="" height={180} width={180} />
+            <img className='rounded' src={`${import.meta.env.BASE_URL} Renthive.png`} alt="" height={180} width={180} />
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -40,7 +40,7 @@ const Projects = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className='mx-[24vw] lg:mx-[0] w-full lg:1/4 mt-[10vh] lg:my-[15vh]'>
-            <img className='rounded' src="/Simon_Says_Game.png" alt="" height={180} width={180} />
+            <img className='rounded' src={`${import.meta.env.BASE_URL} Simon_Says_Game.png`} alt="" height={180} width={180} />
           </motion.div>
           <motion.div 
            whileInView={{opacity: 1, x: 0}}
@@ -61,7 +61,7 @@ const Projects = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className='mx-[24vw] lg:mx-[0] w-full lg:1/4 mt-[10vh] lg:my-[15vh]'>
-            <img className='rounded' src="/Buuble_Game.png" alt="" height={180} width={180} />
+            <img className='rounded' src={`${import.meta.env.BASE_URL} Bubble_Game.png`} alt="" height={180} width={180} />
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -82,7 +82,7 @@ const Projects = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className='mx-[24vw] lg:mx-[0] w-full lg:1/4 mt-[10vh] lg:my-[15vh]'>
-            <img className='rounded' src="/Spotify.png" alt="" height={180} width={180} />
+            <img className='rounded' src={`${import.meta.env.BASE_URL} Spotify.png`} alt="" height={180} width={180} />
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
